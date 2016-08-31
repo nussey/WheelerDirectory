@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA30D587182EC15700365CE0 /* WHSTeacherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30D586182EC15700365CE0 /* WHSTeacherInfoViewController.m */; };
+		FA7F2BF5182D45A600F0CEFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7F2BF4182D45A500F0CEFD /* Foundation.framework */; };
+		FA7F2BF7182D45A600F0CEFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7F2BF6182D45A600F0CEFD /* CoreGraphics.framework */; };
+		FA7F2BF9182D45A600F0CEFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7F2BF8182D45A600F0CEFD /* UIKit.framework */; };
+		FA7F2BFF182D45A600F0CEFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA7F2BFD182D45A600F0CEFD /* InfoPlist.strings */; };
+		FA7F2C01182D45A600F0CEFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7F2C00182D45A600F0CEFD /* main.m */; };
+		FA7F2C05182D45A600F0CEFD /* WHSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7F2C04182D45A600F0CEFD /* WHSAppDelegate.m */; };
+		FA7F2C08182D45A600F0CEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7F2C06182D45A600F0CEFD /* Main.storyboard */; };
+		FA7F2C10182D45A600F0CEFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7F2C0F182D45A600F0CEFD /* Images.xcassets */; };
+		FA7F2C17182D45A600F0CEFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7F2C16182D45A600F0CEFD /* XCTest.framework */; };
+		FA7F2C18182D45A600F0CEFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7F2BF4182D45A500F0CEFD /* Foundation.framework */; };
+		FA7F2C19182D45A600F0CEFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7F2BF8182D45A600F0CEFD /* UIKit.framework */; };
+		FA7F2C21182D45A600F0CEFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA7F2C1F182D45A600F0CEFD /* InfoPlist.strings */; };
+		FA7F2C23182D45A600F0CEFD /* WheelerDirectoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7F2C22182D45A600F0CEFD /* WheelerDirectoryTests.m */; };
+		FA7F2CB5182D74FF00F0CEFD /* WHSFacultyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7F2CB4182D74FF00F0CEFD /* WHSFacultyListViewController.m */; };
+		FAC5B78A182ECD410029106E /* WHSLinkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC5B789182ECD410029106E /* WHSLinkListViewController.m */; };
+		FAC5B78C182EE5710029106E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC5B78B182EE5710029106E /* MessageUI.framework */; };
+		FAC5B78F183018EE0029106E /* WHSScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC5B78E183018EE0029106E /* WHSScheduleViewController.m */; };
+		FAC5B79218311B9F0029106E /* WHSMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC5B79118311B9F0029106E /* WHSMapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7F2C1A182D45A600F0CEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7F2BE9182D45A500F0CEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7F2BF0182D45A500F0CEFD;
+			remoteInfo = WheelerDirectory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA30D585182EC15700365CE0 /* WHSTeacherInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSTeacherInfoViewController.h; sourceTree = "<group>"; };
+		FA30D586182EC15700365CE0 /* WHSTeacherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSTeacherInfoViewController.m; sourceTree = "<group>"; };
+		FA7F2BF1182D45A500F0CEFD /* WheelerDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelerDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7F2BF4182D45A500F0CEFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA7F2BF6182D45A600F0CEFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA7F2BF8182D45A600F0CEFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA7F2BFC182D45A600F0CEFD /* WheelerDirectory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WheelerDirectory-Info.plist"; sourceTree = "<group>"; };
+		FA7F2BFE182D45A600F0CEFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA7F2C00182D45A600F0CEFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA7F2C02182D45A600F0CEFD /* WheelerDirectory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WheelerDirectory-Prefix.pch"; sourceTree = "<group>"; };
+		FA7F2C03182D45A600F0CEFD /* WHSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHSAppDelegate.h; sourceTree = "<group>"; };
+		FA7F2C04182D45A600F0CEFD /* WHSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHSAppDelegate.m; sourceTree = "<group>"; };
+		FA7F2C07182D45A600F0CEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7F2C0F182D45A600F0CEFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA7F2C15182D45A600F0CEFD /* WheelerDirectoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelerDirectoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7F2C16182D45A600F0CEFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA7F2C1E182D45A600F0CEFD /* WheelerDirectoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WheelerDirectoryTests-Info.plist"; sourceTree = "<group>"; };
+		FA7F2C20182D45A600F0CEFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA7F2C22182D45A600F0CEFD /* WheelerDirectoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelerDirectoryTests.m; sourceTree = "<group>"; };
+		FA7F2CB3182D74FF00F0CEFD /* WHSFacultyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSFacultyListViewController.h; path = ../WHSFacultyListViewController.h; sourceTree = "<group>"; };
+		FA7F2CB4182D74FF00F0CEFD /* WHSFacultyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSFacultyListViewController.m; path = ../WHSFacultyListViewController.m; sourceTree = "<group>"; };
+		FAC5B788182ECD410029106E /* WHSLinkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSLinkListViewController.h; sourceTree = "<group>"; };
+		FAC5B789182ECD410029106E /* WHSLinkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSLinkListViewController.m; sourceTree = "<group>"; };
+		FAC5B78B182EE5710029106E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FAC5B78D183018EE0029106E /* WHSScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSScheduleViewController.h; sourceTree = "<group>"; };
+		FAC5B78E183018EE0029106E /* WHSScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSScheduleViewController.m; sourceTree = "<group>"; };
+		FAC5B79018311B9F0029106E /* WHSMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSMapViewController.h; sourceTree = "<group>"; };
+		FAC5B79118311B9F0029106E /* WHSMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSMapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7F2BEE182D45A500F0CEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC5B78C182EE5710029106E /* MessageUI.framework in Frameworks */,
+				FA7F2BF7182D45A600F0CEFD /* CoreGraphics.framework in Frameworks */,
+				FA7F2BF9182D45A600F0CEFD /* UIKit.framework in Frameworks */,
+				FA7F2BF5182D45A600F0CEFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7F2C12182D45A600F0CEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7F2C17182D45A600F0CEFD /* XCTest.framework in Frameworks */,
+				FA7F2C19182D45A600F0CEFD /* UIKit.framework in Frameworks */,
+				FA7F2C18182D45A600F0CEFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7F2BE8182D45A500F0CEFD = {
+			isa = PBXGroup;
+			children = (
+				FA7F2BFA182D45A600F0CEFD /* WheelerDirectory */,
+				FA7F2C1C182D45A600F0CEFD /* WheelerDirectoryTests */,
+				FA7F2BF3182D45A500F0CEFD /* Frameworks */,
+				FA7F2BF2182D45A500F0CEFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7F2BF2182D45A500F0CEFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F2BF1182D45A500F0CEFD /* WheelerDirectory.app */,
+				FA7F2C15182D45A600F0CEFD /* WheelerDirectoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7F2BF3182D45A500F0CEFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5B78B182EE5710029106E /* MessageUI.framework */,
+				FA7F2BF4182D45A500F0CEFD /* Foundation.framework */,
+				FA7F2BF6182D45A600F0CEFD /* CoreGraphics.framework */,
+				FA7F2BF8182D45A600F0CEFD /* UIKit.framework */,
+				FA7F2C16182D45A600F0CEFD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA7F2BFA182D45A600F0CEFD /* WheelerDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F2CB3182D74FF00F0CEFD /* WHSFacultyListViewController.h */,
+				FA7F2CB4182D74FF00F0CEFD /* WHSFacultyListViewController.m */,
+				FA7F2C03182D45A600F0CEFD /* WHSAppDelegate.h */,
+				FA7F2C04182D45A600F0CEFD /* WHSAppDelegate.m */,
+				FA7F2C06182D45A600F0CEFD /* Main.storyboard */,
+				FAC5B79018311B9F0029106E /* WHSMapViewController.h */,
+				FAC5B79118311B9F0029106E /* WHSMapViewController.m */,
+				FAC5B78D183018EE0029106E /* WHSScheduleViewController.h */,
+				FAC5B78E183018EE0029106E /* WHSScheduleViewController.m */,
+				FAC5B788182ECD410029106E /* WHSLinkListViewController.h */,
+				FAC5B789182ECD410029106E /* WHSLinkListViewController.m */,
+				FA30D585182EC15700365CE0 /* WHSTeacherInfoViewController.h */,
+				FA30D586182EC15700365CE0 /* WHSTeacherInfoViewController.m */,
+				FA7F2C0F182D45A600F0CEFD /* Images.xcassets */,
+				FA7F2BFB182D45A600F0CEFD /* Supporting Files */,
+			);
+			path = WheelerDirectory;
+			sourceTree = "<group>";
+		};
+		FA7F2BFB182D45A600F0CEFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F2BFC182D45A600F0CEFD /* WheelerDirectory-Info.plist */,
+				FA7F2BFD182D45A600F0CEFD /* InfoPlist.strings */,
+				FA7F2C00182D45A600F0CEFD /* main.m */,
+				FA7F2C02182D45A600F0CEFD /* WheelerDirectory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA7F2C1C182D45A600F0CEFD /* WheelerDirectoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F2C22182D45A600F0CEFD /* WheelerDirectoryTests.m */,
+				FA7F2C1D182D45A600F0CEFD /* Supporting Files */,
+			);
+			path = WheelerDirectoryTests;
+			sourceTree = "<group>";
+		};
+		FA7F2C1D182D45A600F0CEFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F2C1E182D45A600F0CEFD /* WheelerDirectoryTests-Info.plist */,
+				FA7F2C1F182D45A600F0CEFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7F2BF0182D45A500F0CEFD /* WheelerDirectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7F2C26182D45A600F0CEFD /* Build configuration list for PBXNativeTarget "WheelerDirectory" */;
+			buildPhases = (
+				FA7F2BED182D45A500F0CEFD /* Sources */,
+				FA7F2BEE182D45A500F0CEFD /* Frameworks */,
+				FA7F2BEF182D45A500F0CEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheelerDirectory;
+			productName = WheelerDirectory;
+			productReference = FA7F2BF1182D45A500F0CEFD /* WheelerDirectory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7F2C14182D45A600F0CEFD /* WheelerDirectoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7F2C29182D45A600F0CEFD /* Build configuration list for PBXNativeTarget "WheelerDirectoryTests" */;
+			buildPhases = (
+				FA7F2C11182D45A600F0CEFD /* Sources */,
+				FA7F2C12182D45A600F0CEFD /* Frameworks */,
+				FA7F2C13182D45A600F0CEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7F2C1B182D45A600F0CEFD /* PBXTargetDependency */,
+			);
+			name = WheelerDirectoryTests;
+			productName = WheelerDirectoryTests;
+			productReference = FA7F2C15182D45A600F0CEFD /* WheelerDirectoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7F2BE9182D45A500F0CEFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WHS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Nussey;
+				TargetAttributes = {
+					FA7F2C14182D45A600F0CEFD = {
+						TestTargetID = FA7F2BF0182D45A500F0CEFD;
+					};
+				};
+			};
+			buildConfigurationList = FA7F2BEC182D45A500F0CEFD /* Build configuration list for PBXProject "WheelerDirectory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7F2BE8182D45A500F0CEFD;
+			productRefGroup = FA7F2BF2182D45A500F0CEFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7F2BF0182D45A500F0CEFD /* WheelerDirectory */,
+				FA7F2C14182D45A600F0CEFD /* WheelerDirectoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7F2BEF182D45A500F0CEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7F2C10182D45A600F0CEFD /* Images.xcassets in Resources */,
+				FA7F2BFF182D45A600F0CEFD /* InfoPlist.strings in Resources */,
+				FA7F2C08182D45A600F0CEFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7F2C13182D45A600F0CEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7F2C21182D45A600F0CEFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7F2BED182D45A500F0CEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7F2C01182D45A600F0CEFD /* main.m in Sources */,
+				FAC5B79218311B9F0029106E /* WHSMapViewController.m in Sources */,
+				FA7F2C05182D45A600F0CEFD /* WHSAppDelegate.m in Sources */,
+				FAC5B78A182ECD410029106E /* WHSLinkListViewController.m in Sources */,
+				FA30D587182EC15700365CE0 /* WHSTeacherInfoViewController.m in Sources */,
+				FAC5B78F183018EE0029106E /* WHSScheduleViewController.m in Sources */,
+				FA7F2CB5182D74FF00F0CEFD /* WHSFacultyListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7F2C11182D45A600F0CEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7F2C23182D45A600F0CEFD /* WheelerDirectoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7F2C1B182D45A600F0CEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7F2BF0182D45A500F0CEFD /* WheelerDirectory */;
+			targetProxy = FA7F2C1A182D45A600F0CEFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7F2BFD182D45A600F0CEFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7F2BFE182D45A600F0CEFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA7F2C06182D45A600F0CEFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7F2C07182D45A600F0CEFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7F2C1F182D45A600F0CEFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7F2C20182D45A600F0CEFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7F2C24182D45A600F0CEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA7F2C25182D45A600F0CEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7F2C27182D45A600F0CEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelerDirectory/WheelerDirectory-Prefix.pch";
+				INFOPLIST_FILE = "WheelerDirectory/WheelerDirectory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA7F2C28182D45A600F0CEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelerDirectory/WheelerDirectory-Prefix.pch";
+				INFOPLIST_FILE = "WheelerDirectory/WheelerDirectory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA7F2C2A182D45A600F0CEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WheelerDirectory.app/WheelerDirectory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelerDirectory/WheelerDirectory-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WheelerDirectoryTests/WheelerDirectoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA7F2C2B182D45A600F0CEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WheelerDirectory.app/WheelerDirectory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelerDirectory/WheelerDirectory-Prefix.pch";
+				INFOPLIST_FILE = "WheelerDirectoryTests/WheelerDirectoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7F2BEC182D45A500F0CEFD /* Build configuration list for PBXProject "WheelerDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7F2C24182D45A600F0CEFD /* Debug */,
+				FA7F2C25182D45A600F0CEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7F2C26182D45A600F0CEFD /* Build configuration list for PBXNativeTarget "WheelerDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7F2C27182D45A600F0CEFD /* Debug */,
+				FA7F2C28182D45A600F0CEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7F2C29182D45A600F0CEFD /* Build configuration list for PBXNativeTarget "WheelerDirectoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7F2C2A182D45A600F0CEFD /* Debug */,
+				FA7F2C2B182D45A600F0CEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7F2BE9182D45A500F0CEFD /* Project object */;
+}
